@@ -10,6 +10,7 @@ img {
   width: 100%;
 }
 
-.wrap {
+.card-wrap {
   display: flex;
+  flex-wrap: wrap;
 }

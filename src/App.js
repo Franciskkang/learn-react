@@ -5,10 +5,12 @@ function App() {
     <div className="wrap">
       <Greeting />
       {/* 카드컴포넌트 */}
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      <div className="card-wrap">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
